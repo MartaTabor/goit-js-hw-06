@@ -14,7 +14,7 @@ document
 const inputField = document.querySelector("input");
 const boxesField = document.querySelector("#boxes");
 
-function createBoxes(amount) {
+function createBoxes() {
   const inputValue = inputField.value;
 
   for (let i = 0; i < inputValue; i++) {
